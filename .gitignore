@@ -103,6 +103,9 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# ignore config file and downloaded media 
+# ignore config file, downloaded media, and pickled files
 config.py
 downloaded_media/
+downloaded_media2/
+*.p
+image_origins.csv
